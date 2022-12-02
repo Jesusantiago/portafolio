@@ -1,0 +1,184 @@
+@media screen and (max-width: 767px) {
+    .footer{
+        height: 50vh;
+    }
+
+    .piedepagina{
+        width: 100%;
+        height: 6rem;
+        background: var(--amarillo);
+    }
+    
+    .footer_iconos{
+        width: 90%;
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    
+    .footer_github{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 31%;
+    }
+    
+    .iconos{
+        width: 30px;
+        height: 30px;
+        margin-top: .5rem;
+    
+    }
+    
+    .footer_linkdein{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 31%;
+    }
+    
+    .footer_whatsapp{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 31%;
+    }
+    
+    .iconos_link{
+        text-decoration: none;
+        color: var(--negro);
+    }
+    
+    .footer_cierre_proyecto{
+        margin-top: 1rem;
+        margin-bottom: 0;
+        font-weight: bold;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .footer{
+        height: 100vh;
+    }
+
+    .piedepagina{
+        width: 100%;
+        height: 7rem;
+        background: var(--amarillo);
+    }
+    
+    .footer_iconos{
+        width: 50%;
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    
+    .footer_github{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 31%;
+    }
+    
+    .iconos{
+        width: 30px;
+        height: 30px;
+        margin-top: 1rem;
+    
+    }
+    
+    .footer_linkdein{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 31%;
+    }
+    
+    .footer_whatsapp{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 31%;
+    }
+    
+    .iconos_link{
+        text-decoration: none;
+        color: var(--negro);
+    }
+    
+    .footer_cierre_proyecto{
+        margin-top: 1rem;
+        margin-bottom: 0;
+        font-weight: bold;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .footer{
+        height: 100vh;
+    }
+
+    .piedepagina{
+        width: 100%;
+        height: 7rem;
+        background: var(--amarillo);
+    }
+    
+    .footer_iconos{
+        width: 50%;
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    
+    .footer_github{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 31%;
+    }
+    
+    .iconos{
+        width: 30px;
+        height: 30px;
+        margin-top: 1rem;
+    
+    }
+    
+    .footer_linkdein{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 31%;
+    }
+    
+    .footer_whatsapp{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 31%;
+    }
+    
+    .iconos_link{
+        text-decoration: none;
+        color: var(--negro);
+    }
+    
+    .footer_cierre_proyecto{
+        margin-top: 1rem;
+        margin-bottom: 0;
+        font-weight: bold;
+    }
+}

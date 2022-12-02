@@ -1,0 +1,120 @@
+body{
+    background-color: #192229;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+}
+
+.logo-alura{
+
+    position: absolute;
+    top: 50px;
+    left: 70px;   
+}
+
+.title{
+    color: #eff3f5;
+    text-align: center;
+    margin: 20px 0;
+    font-size: 40px;
+}
+
+main{
+    display: inline;
+}
+
+.cuadro-texto{
+    position: absolute;
+    top: 159px;
+    left: 235px;
+    width: 350px;
+    height: 450px;
+    background-color: #212e36;
+    border: 4px solid #2a3b47;
+    border-radius: 15px;
+    color: #eff3f5;
+    font-size: 30px;
+}
+
+.advertencia{
+    position: absolute;
+    top: 130px;
+    left: 265px;
+    color: #c8cdd0;
+    font-style: italic;
+}
+
+.d-encriptar{
+position: absolute;
+top: 640px;
+left: 250px;
+}
+
+.b-encriptar{
+    width: 160px;
+    height: 70px;
+    font-size: 18px;
+    background-color: #2a3b47;
+    color: #eff3f5;
+    border: 4px solid #c8cdd0;
+    border-radius: 15px;
+}
+
+.b-encriptar:active{
+    background: goldenrod;
+    transition: 1s;
+}
+
+.d-encriptar2{
+    position: absolute;
+    top: 640px;
+    left: 420px;
+    }
+
+.b-desencriptar{
+    width: 160px;
+    height: 70px;
+    font-size: 18px;
+    background-color: #c8cdd0;
+    color: #2a3b47;
+    border: 4px solid #2a3b47;
+    border-radius: 15px;
+}
+
+.cuadro-resultado{
+    position: absolute;
+    top: 159px;
+    right: 235px;
+    width: 350px;
+    height: 450px;
+    background-color: #EFE3F5;
+    border: 4px solid #2a3b47;
+    border-radius: 15px;
+    font-size: 30px;
+    background-image: url(./assets/Muñeco.png);
+    background-repeat: no-repeat;
+    background-position: 30px;
+    background-size: 300px;
+}
+
+.d-copiar{
+    position: absolute;
+    top: 640px;
+    right: 320px;
+}
+
+.b-copiar{
+    width: 160px;
+    height: 70px;
+    font-size: 18px;
+    background-color: #c8cdd0;
+    color: #2a3b47;
+    border: 4px solid #2a3b47;
+    border-radius: 15px;
+}
+
+.footer{
+    color: #efe3f5;
+    position: absolute;
+    top: 750px;
+    left: 40%;
+}

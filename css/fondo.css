@@ -1,0 +1,55 @@
+:root{
+    --amarillo: #f2cb05;
+    --verdeOliva: #736002;
+    --blanco: #F2F2F2; 
+    --gris: #8c8c8c; 
+    --negro: #0D0D0D;
+    --paddingpagina : 5rem 0;
+    --paddingdivision: 2rem 3rem;
+
+}
+
+*{
+    box-sizing: border-box;
+}
+@media screen and (max-width: 767px){
+    .body{
+        background-image: url(../assets/fondo.webp);
+        margin: 0;
+        padding: 0;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .main{
+
+        padding: 0 .5rem;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .body{
+        background-image: url(../assets/fondo.webp);
+        margin: 0;
+        padding: 0;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .main{
+
+        padding: 0 2rem;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .body{
+        background-image: url(../assets/fondo.webp);
+        margin: 0;
+        padding: 0;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    .main{
+        padding: 0 4rem;
+
+    }   
+}

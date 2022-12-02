@@ -1,0 +1,335 @@
+@media screen and (max-width:767px){
+    .certificados{
+        height: 50vh;
+        padding: 0rem;
+    }
+    
+    .certificados__titulo{
+        color: var(--amarillo);
+        font-size: 2rem;
+        text-align: center;
+    }
+    
+    .certificados__slider{
+        width: 90%;
+        overflow: hidden;
+        margin-left: 7%;
+    }
+    
+    .slider__lista{
+        display: flex;
+        width: 1900%;
+        animation: cambio 64s infinite alternate ease-in;
+    }
+    
+    .slider__item{
+        list-style: none;
+        width: 100%;
+    
+    }
+    
+    .slider__imagen{
+        width: 80%;
+        margin-left: 0rem
+    
+    }
+    
+    @keyframes cambio {
+        0% {margin-left: 0;}
+        4% {margin-left: 0;}
+    
+        5%{margin-left: -100%;}
+        9%{margin-left: -100%;}
+    
+        10%{margin-left: -200%;}
+        14%{margin-left: -200%;}
+    
+        15%{margin-left: -300%;}
+        19%{margin-left: -300%;}
+    
+        20%{margin-left: -400%;}
+        24%{margin-left: -400%;}
+    
+        25%{margin-left: -500%;}
+        29%{margin-left: -500%;}
+    
+        30%{margin-left: -600%;}
+        34%{margin-left: -600%;}
+        
+        35%{margin-left: -700%;}
+        39%{margin-left: -700%;}
+    
+        40%{margin-left: -800%;}
+        44%{margin-left: -800%;}
+    
+        45%{margin-left: -900%;}
+        49%{margin-left: -900%;}
+    
+        50%{margin-left: -1000%;}
+        54%{margin-left: -1000%;}
+    
+        55%{margin-left: -1100%;}
+        59%{margin-left: -1100%;}
+    
+        60%{margin-left: -1200%;}
+        64%{margin-left: -1200%;}
+    
+        65%{margin-left: -1300%;}
+        69%{margin-left: -1300%;}
+    
+        70%{margin-left: -1400%;}
+        74%{margin-left: -1400%;}
+    
+        75%{margin-left: -1500%;}
+        79%{margin-left: -1500%;}
+    
+        80%{margin-left: -1600%;}
+        84%{margin-left: -1600%;}
+    
+        85%{margin-left: -1700%;}
+        89%{margin-left: -1700%;}
+    
+        90%{margin-left: -1800%;}
+        94%{margin-left: -1800%;}
+    
+        95%{margin-left: -1900%;}
+        99%{margin-left: -1900%;}
+    }
+    
+    .certificados__span{
+        color: var(--blanco);
+        display: block;
+        text-align: center;
+    }
+    
+    .certificados__span_link{
+        text-decoration: none;
+        color: var(--blanco);
+        font-weight: bolder;
+    }
+    
+}
+
+@media screen and (min-width:768px){
+    .certificados{
+        height: 65vh;
+        padding: 2rem;
+    }
+    
+    .certificados__titulo{
+        color: var(--amarillo);
+        font-size: 2rem;
+        text-align: center;
+    }
+    
+    .certificados__slider{
+        width: 84%;
+        overflow: hidden;
+        margin-left: 7%;
+    }
+    
+    .slider__lista{
+        display: flex;
+        width: 1900%;
+        animation: cambio 64s infinite alternate ease-in;
+    }
+    
+    .slider__item{
+        list-style: none;
+        width: 100%;
+    
+    }
+    
+    .slider__imagen{
+        width: 60%;
+        margin-left: 7rem
+    
+    }
+    
+    @keyframes cambio {
+        0% {margin-left: 0;}
+        4% {margin-left: 0;}
+    
+        5%{margin-left: -100%;}
+        9%{margin-left: -100%;}
+    
+        10%{margin-left: -200%;}
+        14%{margin-left: -200%;}
+    
+        15%{margin-left: -300%;}
+        19%{margin-left: -300%;}
+    
+        20%{margin-left: -400%;}
+        24%{margin-left: -400%;}
+    
+        25%{margin-left: -500%;}
+        29%{margin-left: -500%;}
+    
+        30%{margin-left: -600%;}
+        34%{margin-left: -600%;}
+        
+        35%{margin-left: -700%;}
+        39%{margin-left: -700%;}
+    
+        40%{margin-left: -800%;}
+        44%{margin-left: -800%;}
+    
+        45%{margin-left: -900%;}
+        49%{margin-left: -900%;}
+    
+        50%{margin-left: -1000%;}
+        54%{margin-left: -1000%;}
+    
+        55%{margin-left: -1100%;}
+        59%{margin-left: -1100%;}
+    
+        60%{margin-left: -1200%;}
+        64%{margin-left: -1200%;}
+    
+        65%{margin-left: -1300%;}
+        69%{margin-left: -1300%;}
+    
+        70%{margin-left: -1400%;}
+        74%{margin-left: -1400%;}
+    
+        75%{margin-left: -1500%;}
+        79%{margin-left: -1500%;}
+    
+        80%{margin-left: -1600%;}
+        84%{margin-left: -1600%;}
+    
+        85%{margin-left: -1700%;}
+        89%{margin-left: -1700%;}
+    
+        90%{margin-left: -1800%;}
+        94%{margin-left: -1800%;}
+    
+        95%{margin-left: -1900%;}
+        99%{margin-left: -1900%;}
+    }
+    
+    .certificados__span{
+        color: var(--blanco);
+        display: block;
+        text-align: center;
+    }
+    
+    .certificados__span_link{
+        text-decoration: none;
+        color: var(--blanco);
+        font-weight: bolder;
+    }
+    
+}
+
+@media screen and (min-width:1024px){
+    .certificados{
+        height: 100vh;
+        padding: var(--paddingpagina);
+    }
+    
+    .certificados__titulo{
+        color: var(--amarillo);
+        font-size: 2rem;
+        text-align: center;
+    }
+    
+    .certificados__slider{
+        width: 84%;
+        overflow: hidden;
+        margin-left: 15%;
+    }
+    
+    .slider__lista{
+        display: flex;
+        width: 1900%;
+        animation: cambio 64s infinite alternate ease-in;
+    }
+    
+    .slider__item{
+        list-style: none;
+        width: 100%;
+    
+    }
+    
+    .slider__imagen{
+        width: 60%;
+        margin-left: 7rem
+    
+    }
+    
+    @keyframes cambio {
+        0% {margin-left: 0;}
+        4% {margin-left: 0;}
+    
+        5%{margin-left: -100%;}
+        9%{margin-left: -100%;}
+    
+        10%{margin-left: -200%;}
+        14%{margin-left: -200%;}
+    
+        15%{margin-left: -300%;}
+        19%{margin-left: -300%;}
+    
+        20%{margin-left: -400%;}
+        24%{margin-left: -400%;}
+    
+        25%{margin-left: -500%;}
+        29%{margin-left: -500%;}
+    
+        30%{margin-left: -600%;}
+        34%{margin-left: -600%;}
+        
+        35%{margin-left: -700%;}
+        39%{margin-left: -700%;}
+    
+        40%{margin-left: -800%;}
+        44%{margin-left: -800%;}
+    
+        45%{margin-left: -900%;}
+        49%{margin-left: -900%;}
+    
+        50%{margin-left: -1000%;}
+        54%{margin-left: -1000%;}
+    
+        55%{margin-left: -1100%;}
+        59%{margin-left: -1100%;}
+    
+        60%{margin-left: -1200%;}
+        64%{margin-left: -1200%;}
+    
+        65%{margin-left: -1300%;}
+        69%{margin-left: -1300%;}
+    
+        70%{margin-left: -1400%;}
+        74%{margin-left: -1400%;}
+    
+        75%{margin-left: -1500%;}
+        79%{margin-left: -1500%;}
+    
+        80%{margin-left: -1600%;}
+        84%{margin-left: -1600%;}
+    
+        85%{margin-left: -1700%;}
+        89%{margin-left: -1700%;}
+    
+        90%{margin-left: -1800%;}
+        94%{margin-left: -1800%;}
+    
+        95%{margin-left: -1900%;}
+        99%{margin-left: -1900%;}
+    }
+    
+    .certificados__span{
+        color: var(--blanco);
+        display: block;
+        text-align: center;
+    }
+    
+    .certificados__span_link{
+        text-decoration: none;
+        color: var(--blanco);
+        font-weight: bolder;
+    }
+    
+}

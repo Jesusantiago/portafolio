@@ -1,0 +1,130 @@
+@media screen and (max-width: 767px) {
+    .div__banner{
+        height: calc(100vh - 7rem);
+        display: inline-flex;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding-bottom: .5rem;
+    }
+    
+    .div__banner_personal_texto{
+        color: var(--amarillo);
+        width: 100%;
+        text-align: center;
+    }
+    
+    .div__banner_personal_texto_primero{
+     font-weight: normal;
+    }
+
+    .div__banner_personal_texto_segundo{
+        font-size: 3rem
+    }
+    
+
+    .div__banner_personal_texto_dinamico{
+        font-family: 'Raleway', sans-serif;
+    }
+    
+    .div__banner_personal_gif{
+        width: 15rem;
+        height: 15rem;
+        background: url(../assets/logo_banner.gif);
+        background-position:center;
+        background-repeat: no-repeat;
+        background-size:cover;
+        border-radius: 10px;
+        box-shadow: 15px 15px 30px #191919,
+                     -15px -15px 30px #292929;
+        transition: border-radius cubic-bezier(0.075, 0.82, 0.165, 1) 1s,
+                     transform cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+    }
+}
+
+@media screen and (min-width: 768px){ 
+
+    .div__banner{
+        height: calc(100vh - 4.5rem);
+        display: inline-flex;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding-bottom: 0;
+    }
+    
+    
+    .div__banner_personal_texto{
+        color: var(--amarillo);
+        width: 100%;
+        text-align: center;
+    
+    }
+    
+    .div__banner_personal_texto_primero{
+     font-weight: normal;
+    }
+
+    .div__banner_personal_texto_segundo{
+        font-size: 3rem
+    }
+    
+
+    .div__banner_personal_texto_dinamico{
+        font-family: 'Raleway', sans-serif;
+    }
+    
+    .div__banner_personal_gif{
+        width: 300px;
+        height: 300px;
+        background: url(../assets/logo_banner.gif);
+        background-position:center;
+        background-repeat: no-repeat;
+        background-size:cover;
+        border-radius: 10px;
+        box-shadow: 15px 15px 30px #191919,
+                     -15px -15px 30px #292929;
+        transition: border-radius cubic-bezier(0.075, 0.82, 0.165, 1) 1s,
+                     transform cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+    }
+}
+
+@media screen and (min-width: 1024px){
+
+    .div__banner{
+        height: calc(100vh - 3rem);
+        display: inline-flex;
+        display: flex;
+        flex-direction: row;
+        padding: var(--paddingpagina);
+        justify-content: space-around;
+        align-items: center;
+        padding-bottom: 0;
+    }
+
+    .div__banner_personal_texto{
+        color: var(--amarillo);
+        width: 50%;
+    }
+
+    .div__banner_personal_texto_primero{
+    font-weight: normal;
+    }
+
+    .div__banner_personal_gif{
+        width: 500px;
+        height: 500px;
+        background: url(../assets/logo_banner.gif);
+        background-position:center;
+        background-repeat: no-repeat;
+        background-size:cover;
+        border-radius: 10px;
+        box-shadow: 15px 15px 30px #191919,
+                    -15px -15px 30px #292929;
+        transition: border-radius cubic-bezier(0.075, 0.82, 0.165, 1) 1s,
+                    transform cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+    }
+
+}
